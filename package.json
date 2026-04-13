@@ -1,0 +1,18 @@
+{
+  "name": "iban-validator",
+  "version": "1.0.0",
+  "description": "IBAN validator with country format and mod-97 check",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["iban","validator","bank"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
